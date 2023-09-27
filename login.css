@@ -36,6 +36,7 @@ body {
   text-align: center;
   padding-top: 20%;
   border-radius: 10px 10px 0 0;
+  opacity: 70%;
 }
 
 .login-area {
@@ -90,4 +91,24 @@ a {
   font-size: x-small;
   text-decoration: none;
   color: rgba(18, 56, 207, 1);
+}
+
+.signup {
+  background-color: rgba(18, 56, 207, 1);
+  color: white;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.signup:hover {
+  background-color: #053bae;
 }
